@@ -1,12 +1,12 @@
-bron-kerbosch.py dosyasındaki  kod, ilk önce dosya adını ve tekrar sayısını gösterir. Ardından with open() bloğu kullanarak dosyayı okur
+bron-kerbosch.py dosyasındaki kod, ilk önce dosya adını ve tekrar sayısını gösterir. Ardından with open() bloğu kullanarak dosyayı okur
 ve dosya içeriğini text değişkenine atar. with open() bloğu, dosya okuma işlemi bittiğinde dosyayı otomatik olarak kapatır.
 
 Sonrasında, her kelime için sayısını hesaplar ve kullanıcıya bildirir. Bu, aranan_kelimeler listesindeki her kelime için
-bir kez döngü oluşturarak yapılır. Döngü içinde count() yöntemi kullanılarak, content içinde kelimenin kaç kez tekrar 
-ettiği hesaplanır ve sonuç sayi değişkenine atanır. Son olarak, print() fonksiyonu kullanılarak kelimenin kaç kez tekrar 
+bir kez döngü oluşturarak yapılır. Döngü içinde count() yöntemi kullanılarak, content içinde kelimenin kaç kez tekrar
+ettiği hesaplanır ve sonuç sayi değişkenine atanır. Son olarak, print() fonksiyonu kullanılarak kelimenin kaç kez tekrar
 ettiği ekrana yazdırılır.
 
-Kodun anlaşılırlığı için, değişken adlarını açıklayıcı bir şekilde seçtim. Ayrıca, kodda yorum satırları kullanarak, 
+Kodun anlaşılırlığı için, değişken adlarını açıklayıcı bir şekilde seçtim. Ayrıca, kodda yorum satırları kullanarak,
 adımları açıkladım ve kullanıcıya açıklama ekledim. Böylece kullanıcının ne yapması gerektiğini anlaması kolay hale geldi.
 
 
@@ -21,4 +21,3 @@ Kodun "filename" ve "words_to_count" değişkenlerini kendi ihtiyaçlarınıza u
 Kodu çalıştırmak için, Python'u çalıştırın ve kod dosyasını çalıştırın. Ardından, ekranda her kelimenin kaç kez tekrar edildiğini gösteren çıktıyı göreceksiniz.
 
 İşlem tamamlandığında, Python'u kapatın veya kod dosyasını kaydedip kapatın.
-
