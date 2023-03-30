@@ -20,3 +20,5 @@ for kelime in aranan_kelimeler:
     # Hesaplanan sayıyı ekrana yazdırırız
     print(f"'{kelime}' kelimesi 'alice_in_wonderland.txt' dosyasında {sayi} kez tekrar ediyor.")
 
+    
+    
