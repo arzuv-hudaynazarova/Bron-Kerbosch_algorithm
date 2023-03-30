@@ -4,7 +4,7 @@ Bu algoritma, metin içindeki kelime tekrarlarını saymak için kullanılacak b
 """
 
 # Burada 'alice_in_wonderland.txt' dosyasındaki belirli kelimelerin kaç kez geçtiğini gösteren basit python kodu verilmiştir. 
-# Her hangi bir arama algoritması kullanılmamıştır.
+# Her hangi bir arama algoritması kullanılmamıştır. Pythonda olan count() hazır fonksyon kullanılmıştır.
 
 # "alice_in_wonderland.txt" dosyasını okuyarak içeriği bir dize değişkenine atarız
 with open("alice_in_wonderland.txt", "r") as f:
