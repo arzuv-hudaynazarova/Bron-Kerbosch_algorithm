@@ -24,3 +24,41 @@ En iyi durumda, grafiğin hiç tıkların olmadığı durumlar için algoritma O
 
 Ortalama durum analizi yapmak zordur, çünkü grafiklerin yapısı ve tıkların dağılımı büyük ölçüde değişkenlik gösterir. Bununla birlikte, ortalama durum analizine yaklaşmak için bazı yöntemler kullanılabilir. Öncelikle, gerçek dünya grafiklerinin bazı ortak özelliklerini göz önünde bulundurarak, algoritmanın performansı üzerindeki etkilerini değerlendirebiliriz. Gerçek dünya grafiklerinde, düğümlerin bağlantı dağılımları genellikle güç yasası dağılımı gösterir. Bu, bazı düğümlerin çok fazla bağlantıya sahip olduğu ve diğer düğümlerin daha az bağlantıya sahip olduğu anlamına gelir.
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Çalışma Şekli:
+
+Bron–Kerbosch algoritması, graf üzerinde rekürsif bir şekilde çalışır. İşlemler sırasında 3 küme tutulur:
+
+R: Şimdilik seçilmiş olan düğümler kümesi
+P: R kümesine komşu olan düğümlerin kümesi
+X: Kliğe dahil edilemeyecek olan düğümlerin kümesi
+Algoritma, her seferinde R, P, ve X kümesinin arasından bir eleman seçerek işlemler yapar. İşlemler sırasında her seferinde R kümesine yeni bir düğüm eklenir.
+
+Çalışma Zamanı Analizi:
+
+Bron–Kerbosch algoritmasının çalışma zamanı, grafın yapısına göre değişiklik gösterebilir. En kötü durumda, algoritmanın çalışma zamanı O(3^(n/3)) olarak hesaplanır.
+
+Bu hesaplama, algoritmanın rekürsif bir şekilde çalışması ve her seferinde kümenin 1/3'ünü alması nedeniyle ortaya çıkmaktadır.
+Bron–Kerbosch algoritması, bir grafın tüm maksimum bağımsız küçük kümelerini (MBC) bulmak için kullanılan bir geri dönüşlü arama algoritmasıdır. Bu algoritma, bir grafın tüm maksimum bağımsız küçük kümelerini bulmanın yanı sıra, grafın yapısını inceleyerek alt küme olmayan küçük kümeleri de belirleyebilir.
+
+Algoritmanın çalışma prensibi, her bir adımda, en son bağımsız küçük küme kümesine dahil edilemeyen bir düğümü seçmek ve bu düğümle bağlantılı olan diğer düğümleri dahil etmek için bir geri dönüşlü arama yapmaktır. Algoritma, tüm düğümleri ziyaret ettikten sonra, elde edilen maksimum bağımsız küçük kümeleri döndürür.
+
+Bron–Kerbosch algoritmasının en kötü durumda çalışma zamanı, O(3^(n/3)) olarak hesaplanır. Bu sınırlar, grafın bağlantılarına ve boyutuna bağlı olarak değişebilir. Algoritmanın sınırlarının hesaplanması, her bir düğümün mümkün olan tüm alt kümelerinin sayısının (2^n - 1) olduğu gerçeğine dayanır
