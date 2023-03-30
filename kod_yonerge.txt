@@ -8,3 +8,17 @@ ettiği ekrana yazdırılır.
 
 Kodun anlaşılırlığı için, değişken adlarını açıklayıcı bir şekilde seçtim. Ayrıca, kodda yorum satırları kullanarak, 
 adımları açıkladım ve kullanıcıya açıklama ekledim. Böylece kullanıcının ne yapması gerektiğini anlaması kolay hale geldi.
+
+
+Kodun kullanımı ve test edilmesi için yönergeleri aşağıda belirttim:
+
+İlk olarak, "alice_in_wonderland.txt" dosyasını indirin ve Python kodunuzla aynı klasöre yerleştirin. Eğer dosya zaten mevcut ise bu adımı atlayabilirsiniz.
+
+Daha sonra, yukarıda verilen Python kodunu bir metin editöründe açın veya bir Python IDE'sinde açın.
+
+Kodun "filename" ve "words_to_count" değişkenlerini kendi ihtiyaçlarınıza uygun şekilde düzenleyin. "filename" değişkeni, okumak istediğiniz dosyanın adını ve uzantısını içermelidir. "words_to_count" değişkeni, sayısını hesaplamak istediğiniz kelimelerin listesini içermelidir.
+
+Kodu çalıştırmak için, Python'u çalıştırın ve kod dosyasını çalıştırın. Ardından, ekranda her kelimenin kaç kez tekrar edildiğini gösteren çıktıyı göreceksiniz.
+
+İşlem tamamlandığında, Python'u kapatın veya kod dosyasını kaydedip kapatın.
+
