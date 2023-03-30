@@ -3,7 +3,7 @@ Bron-Kerbosch algoritması, grafiklerdeki maksimum kümeleri (klikleri) bulmak i
 Bu algoritma, metin içindeki kelime tekrarlarını saymak için kullanılacak bir arama algoritması değildir.
 
 Burada 'alice_in_wonderland.txt' dosyasındaki belirli kelimelerin kaç kez geçtiğini gösteren basit python kodu verilmiştir.
-Her hangi bir arama algoritması kullanılmamıştır. Pythonda olan hazır fonksyon count() kullanılmıştır.
+Her hangi bir arama algoritması kullanılmamıştır. Pythonda hazır bulunan count() fonksyonu kullanılmıştır.
 """
 
 # "alice_in_wonderland.txt" dosyasını okuyarak içeriğini 'text' değişkenine atadım
