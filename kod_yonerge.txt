@@ -1,11 +1,26 @@
+#NOT :
+
+Bron-Kerbosch algoritması, grafiklerdeki maksimum kümeleri (klikleri) bulmak için kullanılan geri dönüşlü bir arama algoritmasıdır.
+Bu algoritma, metin içindeki kelime tekrarlarını saymak için kullanılacak bir arama algoritması değildir.
+
+Bu yüzden burada 'alice_in_wonderland.txt' dosyasındaki belirli kelimelerin kaç kez geçtiğini gösteren basit python kodu kendim yazdım. Her hangi bir arama algoritması kullanmadım. Pythonda hazır bulunan count() fonksyonu kullandım.
+
 #Kodun çalışma şekli:
 
-bron-kerbosch.py dosyasındaki kod, ilk önce dosya adını ve tekrar sayısını gösterir. Ardından with open() bloğu kullanarak dosyayı okur
-ve dosya içeriğini text değişkenine atar. with open() bloğu, dosya okuma işlemi bittiğinde dosyayı otomatik olarak kapatır.
-Sonrasında, her kelime için sayısını hesaplar ve kullanıcıya bildirir. Bu, aranan_kelimeler listesindeki her kelime için
-bir kez döngü oluşturarak yapılır. Döngü içinde count() yöntemi kullanılarak, content içinde kelimenin kaç kez tekrar
-ettiği hesaplanır ve sonuç sayi değişkenine atanır. Son olarak, print() fonksiyonu kullanılarak kelimenin kaç kez tekrar
-ettiği ekrana yazdırılır.
+1. 'alice_in_wonderland.txt' dosyasını okudum ve içeriğini 'text' değişkenine atadım:
+    with open("alice_in_wonderland.txt", "r") as f:
+    text = f.read() 
+
+2. Sayısını hesaplamak istediğim kelimeleri bir liste olarak belirledim:
+   aranan_kelimeler = ["upon", "sigh", "Dormouse", "jury-box", "swim"] ile aranan kelimelerin listesini oluşturdum.
+
+3. Her kelimenin sayısını saymak için bir döngü oluşturdum:
+   for kelime in aranan_kelimeler:
+
+4. "count()" yöntemiyle ile metin içindeki her kelimenin tekrar sayısını hesapladım ve ekrana yazdırdım:
+   sayi = text.count(kelime) 
+   print(f"'{kelime}' kelimesi 'alice_in_wonderland.txt' dosyasında {sayi} kez tekrar ediyor.") 
+
 Kodun anlaşılırlığı için, değişken adlarını açıklayıcı bir şekilde seçtim. Ayrıca, kodda yorum satırları kullanarak,
 adımları açıkladım ve kullanıcıya açıklama ekledim. Böylece kullanıcının ne yapması gerektiğini anlaması kolay hale geldi.
 
@@ -26,3 +41,4 @@ adımları açıkladım ve kullanıcıya açıklama ekledim. Böylece kullanıc�
 5. Kod çalıştırıldığında, ekrana 'Alice in Wonderland' metninde aranan kelimelerin geçiş sayılarını gösteren bir çıktı alırsınız.
 
 Kodunuzu test etmek için, aranan_kelimeler listesindeki kelimeleri 'Alice in Wonderland.txt' dosyasında kaç kez geçtiğini görebilirsiniz ve sonuçların değişip değişmediğini kontrol edebilirsiniz.
+
