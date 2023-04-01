@@ -9,7 +9,7 @@ Bu yüzden burada 'alice_in_wonderland.txt' dosyasındaki belirli kelimelerin ka
 
 1. 'alice_in_wonderland.txt' dosyasını okudum ve içeriğini 'text' değişkenine atadım:
     with open("alice_in_wonderland.txt", "r") as f:
-    text = f.read() 
+    text = f.read()
 
 2. Sayısını hesaplamak istediğim kelimeleri bir liste olarak belirledim:
    aranan_kelimeler = ["upon", "sigh", "Dormouse", "jury-box", "swim"] ile aranan kelimelerin listesini oluşturdum.
@@ -18,8 +18,8 @@ Bu yüzden burada 'alice_in_wonderland.txt' dosyasındaki belirli kelimelerin ka
    for kelime in aranan_kelimeler:
 
 4. "count()" yöntemiyle ile metin içindeki her kelimenin tekrar sayısını hesapladım ve ekrana yazdırdım:
-   sayi = text.count(kelime) 
-   print(f"'{kelime}' kelimesi 'alice_in_wonderland.txt' dosyasında {sayi} kez tekrar ediyor.") 
+   sayi = text.count(kelime)
+   print(f"'{kelime}' kelimesi 'alice_in_wonderland.txt' dosyasında {sayi} kez tekrar ediyor.")
 
 Kodun anlaşılırlığı için, değişken adlarını açıklayıcı bir şekilde seçtim. Ayrıca, kodda yorum satırları kullanarak,
 adımları açıkladım ve kullanıcıya açıklama ekledim. Böylece kullanıcının ne yapması gerektiğini anlaması kolay hale geldi.
@@ -31,7 +31,7 @@ adımları açıkladım ve kullanıcıya açıklama ekledim. Böylece kullanıc�
 
 2. Yazdığım kodu (bron-kerbosch.py) bir Python dosyasına (örneğin, deneme.py) yapıştırın.
 
-3. Kodun çalışması için gereken aranan_kelimeler listesini düzenleyin. Bu liste, 'Alice in Wonderland.txt' metninde aramak 
+3. Kodun çalışması için gereken aranan_kelimeler listesini düzenleyin. Bu liste, 'Alice in Wonderland.txt' metninde aramak
    istediğiniz kelimeleri içermelidir.
    Örnek olarak, şu anda bu liste ['upon', 'sigh', 'Dormouse', 'jury-box', 'swim'] şeklinde tanımlanmıştır.
 
@@ -41,4 +41,3 @@ adımları açıkladım ve kullanıcıya açıklama ekledim. Böylece kullanıc�
 5. Kod çalıştırıldığında, ekrana 'Alice in Wonderland' metninde aranan kelimelerin geçiş sayılarını gösteren bir çıktı alırsınız.
 
 Kodumu test etmek için, aranan_kelimeler listesindeki kelimeleri 'Alice in Wonderland.txt' dosyasında kaç kez geçtiğini kendiniz kontrol edebilirsiniz ve sonuçların değişip değişmediğini görebilirsiniz.
-
