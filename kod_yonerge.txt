@@ -41,4 +41,7 @@ adımları açıkladım ve kullanıcıya açıklama ekledim. Böylece kullanıc�
 
 5. Kod çalıştırıldığında, ekrana 'Alice in Wonderland' metninde aranan kelimelerin geçiş sayılarını gösteren bir çıktı alırsınız.
 
-Kodumu test etmek için, aranan_kelimeler listesindeki kelimeleri 'Alice in Wonderland.txt' dosyasında kaç kez geçtiğini kendiniz kontrol edebilirsiniz ve sonuçların değişip değişmediğini görebilirsiniz.
+Kodumu test etmek için, aranan_kelimeler listesindeki kelimeleri 'Alice in Wonderland.txt' dosyasında kaç kez geçtiğini
+kendiniz kontrol edebilirsiniz ve sonuçların değişip değişmediğini görebilirsiniz.
+
+
