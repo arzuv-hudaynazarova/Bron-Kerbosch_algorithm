@@ -29,7 +29,7 @@ adımları açıkladım ve kullanıcıya açıklama ekledim. Böylece kullanıc�
 
 1. İlk olarak, "alice_in_wonderland.txt" dosyasını Python kodunuzla aynı klasöre yerleştirin.
 
-2. Yazdığım kodu (zhu-takaoka.py) bir Python dosyasına (örneğin, deneme.py) yapıştırın.
+2. Yazdığım kodu (bron-kerbosch.py) bir Python dosyasına (örneğin, deneme.py) yapıştırın.
 
 3. Kodun çalışması için gereken aranan_kelimeler listesini düzenleyin. Bu liste, 'Alice in Wonderland.txt' metninde aramak 
    istediğiniz kelimeleri içermelidir.
