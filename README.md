@@ -21,12 +21,12 @@ Algoritma, şu adımları izler:
 2. P ve X kümelerinin kesişimi boş olduğunda, algoritma sona erer. Bu durum, tüm düğümlerin incelendiğini ve daha fazla 
    kliğin oluşturulamayacağını gösterir.
 3. Algoritma, P kümesinden bir düğüm seçer ve R'ye ekler. Ardından, P kümesini, seçilen düğümle bağlantılı olan düğümlere 
-   göre güncellenir. Aynı şekilde, X kümesini de güncellenir.
+   göre günceller. Aynı şekilde, X kümesini de günceller.
 4. Bu güncellemelerin ardından, algoritma tekrar çalıştırılır ve adım 2'ye geri döner. Bu süreç, P kümesi boş olana kadar devam eder.
 5. Tüm düğümler incelendikten sonra, algoritma R kümesindeki düğümleri içeren maksimum kümeleri (klikleri) döndürür.
 
 
-Algoritmanın çalışma prensibi, her bir adımda, en son bağımsız küçük küme kümesine dahil edilemeyen bir düğümü seçmek ve bu düğümle bağlantılı olan diğer düğümleri dahil etmek için bir geri dönüşlü arama yapmaktır. Algoritma, tüm düğümleri ziyaret ettikten sonra, elde edilen maksimum bağımsız küçük kümeleri döndürür.
+Algoritmanın çalışma prensibi, her bir adımda, en son bağımsız küçük  kümesine dahil edilemeyen bir düğümü seçmek ve bu düğümle bağlantılı olan diğer düğümleri dahil etmek için bir geri dönüşlü arama yapmaktır. Algoritma, tüm düğümleri gözden geçirdikten sonra, elde edilen maksimum bağımsız küçük kümeleri döndürür.
 
 
 Algoritmanın çalışma zamanı analizi şu şekildedir:
